@@ -27,10 +27,33 @@
             <div class="col-sm-3 bordertest">
                 <form id="gif-form">
                     <label for="gif-input">Gif Match</label><br>
-                    <input type="text" id="gif-input"><br>
+                    <input type="text" id="gif-input" placeholder="Search Match..."><br>
+
+                    <div class="form-group">
+                        <label for="number-select">Number of Gifs</label>
+                        <select class="form-control" id="number-select">
+                            <option>5</option>
+                            <option>10</option>
+                            <option>15</option>
+                            <option>20</option>
+                            <option>25</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rating-select">Rating of Gif</label>
+                        <select class="form-control" id="rating-select">
+                            <option>Y</option>
+                            <option>G</option>
+                            <option>PG</option>
+                            <option>PG-13</option>
+                            <option>R</option>
+                        </select>
+                    </div>
+
                     <span class="lead" class="col-md-4">
                         <a class="btn btn-sm" href="#!" role="button" id="search_button"><i class="fas fa-fire"></i>
-                            Search</a>
+                            Add</a>
                     </span>
                     <span class="lead" class="col-md-4 clear">
                         <a class="btn btn-sm" href="#!" role="button" id="clear_button"><i class="fas fa-fire-extinguisher"></i>
