@@ -16,3 +16,5 @@ This app displays buttons related to a certain topic and allows you to add searc
 
 ## Demo
 [Click here to Demo!](https://bodnguye.github.io/GifTastic/)
+
+![Results](/assets/images/demo)
