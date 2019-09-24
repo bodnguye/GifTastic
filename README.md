@@ -9,7 +9,8 @@ This app displays buttons related to a certain topic and allows you to add searc
 
 ## Technologies Used
 - HTML
-- CSS Bootstrap
+- CSS 
+- Bootstrap
 - JavaScript to make the page dynamic
 - jQuery for Dom Manipulation
 - AJAX for API GET requests
